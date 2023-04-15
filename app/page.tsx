@@ -1,6 +1,7 @@
 import { Poppins } from 'next/font/google';
 
 import Navigation from './sections/Navigation';
+import Biography from './sections/Biography';
 import Banner from './sections/Banner';
 
 const poppins = Poppins({
@@ -12,9 +13,14 @@ const poppins = Poppins({
 
 export default function Home() {
 	return (
-		<header className='overflow-x-hidden'>
-			<Navigation />
-			<Banner />
-		</header>
+		<>
+			<header className='overflow-x-hidden'>
+				<Navigation />
+				<Banner />
+			</header>
+			<main className='main-background'>
+				<Biography />
+			</main>
+		</>
 	);
 }
