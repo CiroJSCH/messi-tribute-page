@@ -12,7 +12,7 @@ const Highlights = () => {
 					<SectionTitle title="Destacados"/>
 				</div>
 				<section className='w-full mt-10'>
-					<ol className='grid grid-cols-12 grid-rows-5 h-[1500px] gap-4 md:gap-5 xl:gap-6'>
+					<ol className='grid grid-cols-12 grid-rows-5 sm:grid-rows-3 h-[1500px] sm:h-[900px] gap-4 md:gap-5 xl:gap-6'>
 						{
 							highlightsTop.map((highlight, index) => (
 								<Item key={`highlight-${index}`} index={index} {...highlight}/>
