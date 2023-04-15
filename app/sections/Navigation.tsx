@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
 import useMediaQuery from '../hooks/useMediaQuery';
@@ -10,9 +11,22 @@ const listItemStyle = 'w-[125px] text-center hover:text-blue cursor-pointer tran
 const Navigation = () => {
 
 	const isDesktop = useMediaQuery('(min-width: 1024px)');
+	const [isOnTop, setIsOnTop] = useState(true);
+
+	const changeNavBg = () => {
+		window.scrollY <= 60 ? setIsOnTop(true) : setIsOnTop(false);
+	 };
+ 
+	 useEffect(() => {
+		 window.addEventListener('scroll', changeNavBg);
+		 return () => {
+			 window.removeEventListener('scroll', changeNavBg);
+		 };
+	 }, []);
+ 
 
 	return (
-		<nav className='fixed z-[5] h-auto p-4 w-full sm:py-6'>
+		<nav className={`fixed z-[5] h-auto p-4 w-full sm:py-6 transition-[background] duration-300 ${isOnTop ? 'bg-transparent' : 'bg-black border-b border-b-blue'}`}>
 			<div className='w-full max-w-[1440px] mx-auto flex justify-between'>
 				<section className='w-[60px] h-[60px] relative sm:hidden flex flex-col items-center'>
 					<Image src="/images/logo.png" alt="logo" fill className='absolute'/>					
