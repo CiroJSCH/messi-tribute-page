@@ -1,5 +1,7 @@
 import './globals.css';
 
+import { Poppins } from 'next/font/google';
+
 export const metadata = {
 	title: 'Lionel Messi Tribute',
 	description: 'Sitio generado con Next.JS. Tarea de Programación III',
@@ -9,6 +11,13 @@ export const metadata = {
 	},
 };
 
+const poppins = Poppins({
+	subsets: ['latin'],
+	display: 'swap',
+	weight: ['300', '400', '500', '600', '700'],
+	style: ['normal', 'italic'],
+});
+
 export default function RootLayout({
 	children,
 }: {
@@ -16,7 +25,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="es">
-			<body>{children}</body>
+			<body className={poppins.className}>{children}</body>
 		</html>
 	);
 }
