@@ -1,15 +1,7 @@
-import { Poppins } from 'next/font/google';
-
 import Navigation from './sections/Navigation';
+import Highlights from './sections/Highlights';
 import Biography from './sections/Biography';
 import Banner from './sections/Banner';
-
-const poppins = Poppins({
-	subsets: ['latin'],
-	display: 'swap',
-	weight: ['300', '400', '500', '600', '700'],
-	style: ['normal', 'italic'],
-});
 
 export default function Home() {
 	return (
@@ -20,6 +12,7 @@ export default function Home() {
 			</header>
 			<main className='main-background'>
 				<Biography />
+				<Highlights />
 			</main>
 		</>
 	);
