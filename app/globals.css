@@ -59,10 +59,10 @@
   );
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
   .blue-solid-shadow {
-    box-shadow: 10px 10px 0px 4px rgba(20,79,168,1);
-  -webkit-box-shadow: 10px 10px 0px 4px rgba(20,79,168,1);
-  -moz-box-shadow: 10px 10px 0px 4px rgba(20,79,168,1);
+    box-shadow: 10px 10px 0px 4px rgba(20, 79, 168, 1);
+    -webkit-box-shadow: 10px 10px 0px 4px rgba(20, 79, 168, 1);
+    -moz-box-shadow: 10px 10px 0px 4px rgba(20, 79, 168, 1);
   }
 }
