@@ -5,11 +5,29 @@
 @tailwind utilities;
 
 .text-gradient-gold {
-  background: -webkit-linear-gradient(72deg, rgba(111,88,31,1) 0%, rgba(159,132,46,1) 47%, rgba(144,114,36,1) 86%, rgba(138,108,33,1) 100%);
+  background: -webkit-linear-gradient(
+    72deg,
+    rgba(111, 88, 31, 1) 0%,
+    rgba(159, 132, 46, 1) 47%,
+    rgba(144, 114, 36, 1) 86%,
+    rgba(138, 108, 33, 1) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gold-gradient {
-  background: linear-gradient(72deg, rgba(111,88,31,1) 0%, rgba(159,132,46,1) 47%, rgba(144,114,36,1) 86%, rgba(138,108,33,1) 100%);
+  background: linear-gradient(
+    72deg,
+    rgba(111, 88, 31, 1) 0%,
+    rgba(159, 132, 46, 1) 47%,
+    rgba(144, 114, 36, 1) 86%,
+    rgba(138, 108, 33, 1) 100%
+  );
+}
+
+.glassmorphism {
+  background: rgba(4, 17, 30, 0.5);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
