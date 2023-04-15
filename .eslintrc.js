@@ -23,7 +23,6 @@ module.exports = {
 		'indent': [2, 'tab'],
 		'comma-dangle': [2, 'always-multiline'],
 		'quotes': [2, 'single', { 'avoidEscape': true }],
-		'import/no-unresolved': 'error',
 		'sort-imports': [
 			'error',
 			{
