@@ -5,7 +5,7 @@ import Image from 'next/image';
 import useMediaQuery from '../hooks/useMediaQuery';
 import MobileMenu from '../components/header/MobileMenu';
 
-const listItemStyle = 'w-[100px] text-center hover:text-blue cursor-pointer transition md:text-[18px] lg:text-[20] xl:text-[22px] tracking-[1.15px]';
+const listItemStyle = 'w-[125px] text-center hover:text-blue cursor-pointer transition text-[14px] md:text-[16px] lg:text-[20] xl:text-[20px] tracking-[1.15px]';
 
 const Navigation = () => {
 

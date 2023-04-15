@@ -10,7 +10,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const listItemStyle =
-  'flex items-center gap-5 text-gradient-gold uppercase text-[22px] font-medium tracking-[1.25px]';
+  'flex items-center gap-5 text-gradient-gold uppercase text-[19px] font-medium tracking-[1.25px]';
 
 const MobileMenu = () => {
 	const [isOpenMenu, setIsOpenMenu] = useState(false);
@@ -46,25 +46,25 @@ const MobileMenu = () => {
 					<ul className='flex flex-col gap-7 mt-10'>
 						<li>
 							<Link href="#biografia" className={listItemStyle}>
-								<BsFillPersonFill className="text-white" size={30} />
+								<BsFillPersonFill className="text-white mb-1" size={24} />
 								<span>Biografía</span>
 							</Link>
 						</li>
 						<li>
 							<Link href="#clubes" className={listItemStyle}>
-								<MdSportsSoccer className="text-white" size={30} />
+								<MdSportsSoccer className="text-white mb-1" size={24} />
 								<span>Clubes</span>
 							</Link>
 						</li>
 						<li>
 							<Link href="#trofeos"  className={listItemStyle}>
-								<AiFillTrophy className="text-white" size={30} />
+								<AiFillTrophy className="text-white mb-1" size={24} />
 								<span>Trofeos</span>
 							</Link>
 						</li>
 						<li>
 							<Link href="#destacados" className={listItemStyle}>
-								<AiFillStar className="text-white" size={30} />
+								<AiFillStar className="text-white mb-1" size={24} />
 								<span>Destacados</span>
 							</Link>
 						</li>
