@@ -26,7 +26,7 @@ const Navigation = () => {
  
 
 	return (
-		<nav className={`fixed z-[5] h-auto p-4 w-full sm:py-6 transition-[background] duration-300 ${isOnTop ? 'bg-transparent' : 'bg-black border-b border-b-blue'}`}>
+		<nav className={`fixed z-[100] h-auto p-4 w-full sm:py-6 transition-[background] duration-300 ${isOnTop ? 'bg-transparent' : 'bg-black border-b border-b-blue'}`}>
 			<div className='w-full max-w-[1440px] mx-auto flex justify-between'>
 				<section className='w-[60px] h-[60px] relative sm:hidden flex flex-col items-center'>
 					<Image src="/images/logo.png" alt="logo" fill className='absolute'/>					
