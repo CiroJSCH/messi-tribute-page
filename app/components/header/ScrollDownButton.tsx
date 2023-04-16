@@ -1,17 +1,12 @@
-'use client';
-
 import { HiChevronDoubleDown } from 'react-icons/hi';
+import Link from 'next/link';
 
 const ScrollDownButton = () => {
 
-	const scrollDown = () => {
-		window.scroll(0, window.scrollY + window.innerHeight);
-	};
-
 	return (
-		<div className='animate-bounce cursor-pointer flex items-center justify-center rounded-full bg-blue w-[50px] h-[50px] absolute bottom-14' onClick={scrollDown}>
+		<Link href="#biography" className='animate-bounce cursor-pointer flex items-center justify-center rounded-full bg-blue w-[50px] h-[50px] absolute bottom-14 z-[7]'>
 			<HiChevronDoubleDown size={30}/>
-		</div>
+		</Link>
 	);
 };
 
