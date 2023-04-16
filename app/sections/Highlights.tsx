@@ -7,7 +7,7 @@ import SectionTitle from '../components/shared/SectionTitle';
 
 const Highlights = () => {
 	return (
-		<section id="highlights" className="mt-20">
+		<section id="highlights" className="pt-20">
 			<div className="flex flex-col w-full max-w-[1440px] items-center mx-auto p-5">
 				<div className="flex flex-col items-center text-center gap-6">
 					<SectionTitle title="Destacados" />
