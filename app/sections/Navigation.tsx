@@ -34,7 +34,7 @@ const Navigation = () => {
 				<MobileMenu />
 				<ul className='hidden sm:flex items-center justify-around text-white uppercase font-medium w-full'>
 					<li className={listItemStyle}>Biografía</li>
-					<li className={listItemStyle}>Clubes</li>
+					<li className={listItemStyle}>Equipos</li>
 					<li className='relative w-[80px] lg:w-[110px] h-[80px] lg:h-[110px] hover:bg-gold transition ease-in-out duration-300 border rounded-full grid place-content-center'>
 						<Image src="/images/logo2.png" alt="logo" width={isDesktop ? 60 : 40} height={isDesktop ? 60 : 40} />
 					</li>

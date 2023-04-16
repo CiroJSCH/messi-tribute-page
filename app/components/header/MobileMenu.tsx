@@ -51,9 +51,9 @@ const MobileMenu = () => {
 							</Link>
 						</li>
 						<li>
-							<Link href="#clubes" className={listItemStyle}>
+							<Link href="#teams" className={listItemStyle}>
 								<MdSportsSoccer className="text-white mb-1" size={24} />
-								<span>Clubes</span>
+								<span>Equipos</span>
 							</Link>
 						</li>
 						<li>
