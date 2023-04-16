@@ -4,7 +4,7 @@ import SectionTitle from '@/components/shared/SectionTitle';
 
 const Teams = () => {
 	return (
-		<section>
+		<section id='#teams' className='mt-20'>
 			<div className="max-w-[1440px] w-full m-auto p-5">
 				<div className="flex flex-col items-center mb-6">
 					<SectionTitle title="Equipos" />

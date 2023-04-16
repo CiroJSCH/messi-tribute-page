@@ -9,7 +9,7 @@ const highlightText =
 
 const Biography = () => {
 	return (
-		<section className="h-auto">
+		<section id='#biography' className='pt-20'>
 			<div className="max-w-[1440px] w-full mx-auto flex flex-col items-center">
 				<div className="p-5">
 					<SectionTitle title="Biografía" />
