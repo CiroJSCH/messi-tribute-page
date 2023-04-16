@@ -43,12 +43,14 @@ const MobileMenu = () => {
 				} ease-in-out duration-300`}
 			>
 				<div className="flex flex-col gap-5 justify-center w-full items-center px-4 h-[75%]">
-					<Image
-						src="/images/logo.png"
-						alt="messi logo"
-						width={80}
-						height={80}
-					/>
+					<Link href="#home" onClick={handleOnClose}>
+						<Image
+							src="/images/logo.png"
+							alt="messi logo"
+							width={80}
+							height={80}
+						/>
+					</Link>
 					<ul className='flex flex-col gap-7 mt-10'>
 						<li onClick={handleOnClose}>
 							<Link href="#biography" className={listItemStyle}>
