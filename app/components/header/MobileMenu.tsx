@@ -17,6 +17,12 @@ const MobileMenu = () => {
 	const toggleMenu = () => {
 		setIsOpenMenu((prev) => !prev);
 	};
+	const handleOnClose = () => {
+		setTimeout(() => {
+			setIsOpenMenu(false);
+		}, 200);
+	};
+
 	return (
 		<>
 			<div
@@ -44,26 +50,26 @@ const MobileMenu = () => {
 						height={80}
 					/>
 					<ul className='flex flex-col gap-7 mt-10'>
-						<li>
-							<Link href="#biografia" className={listItemStyle}>
+						<li onClick={handleOnClose}>
+							<Link href="#biography" className={listItemStyle}>
 								<BsFillPersonFill className="text-white mb-1" size={24} />
 								<span>Biografía</span>
 							</Link>
 						</li>
-						<li>
+						<li onClick={handleOnClose}>
 							<Link href="#teams" className={listItemStyle}>
 								<MdSportsSoccer className="text-white mb-1" size={24} />
 								<span>Equipos</span>
 							</Link>
 						</li>
-						<li>
-							<Link href="#trofeos"  className={listItemStyle}>
+						<li onClick={handleOnClose}>
+							<Link href="#trophies"  className={listItemStyle}>
 								<AiFillTrophy className="text-white mb-1" size={24} />
 								<span>Trofeos</span>
 							</Link>
 						</li>
-						<li>
-							<Link href="#destacados" className={listItemStyle}>
+						<li onClick={handleOnClose}>
+							<Link href="#highlights" className={listItemStyle}>
 								<AiFillStar className="text-white mb-1" size={24} />
 								<span>Destacados</span>
 							</Link>
