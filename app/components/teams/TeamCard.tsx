@@ -18,7 +18,7 @@ interface TeamCard {
 const TeamCard = ({ description, gradient, image, name, position, assists, debut, goals, matches }: TeamCard) => {
 	return (
 		<li className={`col-span-12 lg:col-span-11 ${position} flex flex-col md:flex-row md:gap-5 items-center md:items-start md:justify-between px-4 py-10 rounded-md border-b-gold border-b-2`}>
-			<section className='w-full lg:w-[80%] flex flex-col'>
+			<section className='w-full lg:w-[65%] xl:w-[80%] flex flex-col'>
 				<div className="relative h-[100px] w-[100px] p-2 mx-auto">
 					<Image
 						src={image}
