@@ -9,7 +9,7 @@ const ScrollDownButton = () => {
 	};
 
 	return (
-		<div className='animate-bounce cursor-pointer flex items-center justify-center rounded-full bg-blue w-[50px] h-[50px] absolute bottom-12' onClick={scrollDown}>
+		<div className='animate-bounce cursor-pointer flex items-center justify-center rounded-full bg-blue w-[50px] h-[50px] absolute bottom-14' onClick={scrollDown}>
 			<HiChevronDoubleDown size={30}/>
 		</div>
 	);
