@@ -26,7 +26,7 @@ const Biography = () => {
 					<section className="w-full lg:w-[55%]">
 						<div className="mt-5 relative bg-[url('/images/topogigio.jpg')] w-full h-[300px] sm:h-[340px] md:h-[390px] lg:h-[70%] xl:h-[80%] bg-cover bg-center z-[1] blue-solid-shadow">
 							<div className="h-full w-full absolute bg-[rgba(0,0,0,0.4)] z-[2]" />
-							<div className="absolute z-[3] h-[220px] md:h-[250px] lg:h-[300px] xl:h-[400px] w-[220px] md:w-[250px] lg:w-[300px] xl:w-[400px] -bottom-[110px] left-[calc(50%-110px)] md:left-[calc(50%-125px)] lg:left-[calc(50%-150px)] xl:left-[calc(50%-200px)] border-[rgb(0,0,1)] border-x-[24px] border-t-[24px]">
+							<div className="absolute z-[3] h-[220px] md:h-[250px] lg:h-[300px] xl:h-[370px] w-[220px] md:w-[250px] lg:w-[300px] xl:w-[370px] -bottom-[110px] left-[calc(50%-110px)] md:left-[calc(50%-125px)] lg:left-[calc(50%-150px)] xl:left-[calc(50%-185px)] border-[rgb(0,0,1)] border-x-[24px] border-t-[24px]">
 								<Image src="/images/niño.jpg" fill alt="messi niño" />
 							</div>
 						</div>
