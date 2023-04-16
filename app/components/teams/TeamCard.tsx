@@ -9,9 +9,13 @@ interface TeamCard {
   gradient: string;
   description: string;
 	position: string;
+	debut: number;
+	matches: number;
+	assists: number;
+	goals: number;
 }
 
-const TeamCard = ({ description, gradient, image, name, position }: TeamCard) => {
+const TeamCard = ({ description, gradient, image, name, position, assists, debut, goals, matches }: TeamCard) => {
 	return (
 		<li className={`col-span-12 lg:col-span-11 ${position} flex flex-col md:flex-row md:gap-5 items-center md:items-start md:justify-between px-4 py-10 rounded-md border-b-gold border-b-2`}>
 			<section className='w-full lg:w-[80%] flex flex-col'>
@@ -46,7 +50,7 @@ const TeamCard = ({ description, gradient, image, name, position }: TeamCard) =>
                   Debut:
 								</span>
 							</p>
-							<span className="text-white font-medium">2004</span>
+							<span className="text-white font-medium">{debut}</span>
 						</li>
 						<li className="flex items-center gap-1">
 							<p className="flex items-center gap-2 font-semibold">
@@ -55,7 +59,7 @@ const TeamCard = ({ description, gradient, image, name, position }: TeamCard) =>
                   Partidos
 								</span>
 							</p>
-							<span className="text-white font-medium">2004</span>
+							<span className="text-white font-medium">{matches}</span>
 						</li>
 						<li className="flex items-center gap-1">
 							<p className="flex items-center gap-2 font-semibold">
@@ -64,7 +68,7 @@ const TeamCard = ({ description, gradient, image, name, position }: TeamCard) =>
                   Asistencias
 								</span>
 							</p>
-							<span className="text-white font-medium">2004</span>
+							<span className="text-white font-medium">{assists}</span>
 						</li>
 						<li className="flex items-center gap-1">
 							<p className="flex items-center gap-2 font-semibold">
@@ -73,7 +77,7 @@ const TeamCard = ({ description, gradient, image, name, position }: TeamCard) =>
                   Goles
 								</span>
 							</p>
-							<span className="text-white font-medium">2004</span>
+							<span className="text-white font-medium">{goals}</span>
 						</li>
 					</ul>
 				</div>

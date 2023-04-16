@@ -9,6 +9,10 @@ const teams = [
 		gradient: 'psg-gradient',
 		description: 'Llegó al FC Barcelona en 2004. Se convirtió en un ícono del club y del fútbol mundial debido a su habilidad excepcional en el campo, su liderazgo y su dedicación. Su técnica de regate y su capacidad para anotar goles impresionantes lo convirtieron en uno de los jugadores más temidos en todo el mundo.',
 		position: 'lg:col-start-1',
+		debut: 2004,
+		matches: 778,
+		assists: 305,
+		goals: 672,
 	},
 	{
 		name: 'Paris Saint Germain',
@@ -16,6 +20,10 @@ const teams = [
 		gradient: 'barcelona-gradient',
 		description: 'LLegó al PSG en Agosto de 2021 proveniente del Barcelona como agente libre, firmando un contrato durante dos años. Desde entonces se encuentra jugando en el club.',
 		position: 'lg:col-start-2 xl:col-start-2',
+		debut: 2021,
+		matches: 69,
+		assists: 32,
+		goals: 31,
 	},
 	{
 		name: 'Selección Argentina',
@@ -23,6 +31,10 @@ const teams = [
 		gradient: 'argentina-gradient',
 		description: 'Messi debutó con la selección argentina en 2005 y desde entonces ha representado a su país en cinco Copas del Mundo y cinco Copas América. Además, ha sido fundamental en la selección, convirtiendose en el jugador con mas participaciones, asistencias y goles en la historia de la selección.',
 		position: 'lg:col-start-3 xl:col-start-3',
+		debut: 2005,
+		matches: 174,
+		assists: 54,
+		goals: 102,
 	},
 ];
 
