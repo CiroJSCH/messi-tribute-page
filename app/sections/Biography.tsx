@@ -9,10 +9,18 @@ const highlightText =
 
 const Biography = () => {
 	return (
-		<section id='#biography' className='pt-20'>
+		<section id="#biography" className="pt-20">
 			<div className="max-w-[1440px] w-full mx-auto flex flex-col items-center">
-				<div className="p-5">
+				<div className="p-5 flex flex-col items-center text-center gap-6 mb-4">
 					<SectionTitle title="Biografía" />
+					<p className="text-white text-[17px] md:text-[19px] lg:text-[21px] leading-[27px]">
+            Conoce la historia de Lionel Messi, el{' '}
+						<span className="font-marker text-gradient-gold">
+              jugador prodigioso
+						</span>{' '}
+            que superó obstáculos para convertirse en ícono global del fútbol,
+            su carrera, vida personal y logros más destacados.
+					</p>
 				</div>
 				<div className="flex flex-col lg:flex-row-reverse gap-8">
 					<section className="w-full lg:w-[55%]">
@@ -25,13 +33,25 @@ const Biography = () => {
 					</section>
 					<section className="lg:w-[45%] flex flex-col mt-[120px] lg:mt-0">
 						<p className={`${paragraphStyle}`}>
-						Lionel Messi nació el 24 de junio de 1987 en <span className={highlightText}>Rosario, Argentina</span>. Desde muy joven, mostró un gran talento para el fútbol y comenzó a jugar en las categorías inferiores del Newell&apos;s Old Boys. Sin embargo, su carrera dio un giro inesperado cuando fue diagnosticado con una deficiencia en la hormona del crecimiento a los 11 años.
+              Lionel Messi nació el 24 de junio de 1987 en{' '}
+							<span className={highlightText}>Rosario, Argentina</span>. Desde
+              muy joven, mostró un gran talento para el fútbol y comenzó a jugar
+              en las categorías inferiores del Newell&apos;s Old Boys. Sin
+              embargo, su carrera dio un giro inesperado cuando fue
+              diagnosticado con una deficiencia en la hormona del crecimiento a
+              los 11 años.
 						</p>
 						<p className={`${paragraphStyle}`}>
-						El <span className={highlightText}>FC Barcelona</span> ofreció pagarle el tratamiento, por lo que Messi y su familia decidieron mudarse a España para darle la oportunidad de unirse a las fuerzas juveniles del equipo. A los 16 años, Messi debutó en el primer equipo del Barcelona en un partido amistoso contra el Porto.
+              El <span className={highlightText}>FC Barcelona</span> ofreció
+              pagarle el tratamiento, por lo que Messi y su familia decidieron
+              mudarse a España para darle la oportunidad de unirse a las fuerzas
+              juveniles del equipo. A los 16 años, Messi debutó en el primer
+              equipo del Barcelona en un partido amistoso contra el Porto.
 						</p>
 						<p className={`${paragraphStyle}`}>
-						Desde entonces, se ha convertido en uno de los <span className={highlightText}>futbolistas más talentosos</span> de la historia, reconocido por su humildad y dedicación al juego.
+              Desde entonces, se ha convertido en uno de los{' '}
+							<span className={highlightText}>futbolistas más talentosos</span>{' '}
+              de la historia, reconocido por su humildad y dedicación al juego.
 						</p>
 					</section>
 				</div>
