@@ -1,3 +1,4 @@
+import Trophies from './sections/Trophies';
 import Navigation from './sections/Navigation';
 import Highlights from './sections/Highlights';
 import Biography from './sections/Biography';
@@ -12,6 +13,7 @@ export default function Home() {
 			</header>
 			<main className='main-background'>
 				<Biography />
+				<Trophies />
 				<Highlights />
 			</main>
 		</>
