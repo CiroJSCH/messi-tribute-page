@@ -14,6 +14,7 @@ const Banner = () => {
 				<Image className='mt-8 lg:mt-10' src="/images/logo.png" alt="Messi Logo" width="200" height="200"/>
 				<ScrollDownButton />
 			</div>
+			<Image src='/images/signature.svg' alt='messi signature' width={200} height={50} className='absolute bottom-4 left-4 z-[4] invert'/>
 		</section>
 	);
 };
