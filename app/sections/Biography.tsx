@@ -23,43 +23,15 @@ const Biography = () => {
 							</div>
 						</div>
 					</section>
-					<section className="lg:w-[45%] flex flex-col gap-1 mt-[120px] lg:mt-0">
+					<section className="lg:w-[45%] flex flex-col mt-[120px] lg:mt-0">
 						<p className={`${paragraphStyle}`}>
-							<span className={highlightText}>Lionel Messi</span> es un
-              futbolista argentino considerado uno de los{' '}
-							<span className={highlightText}>
-                mejores jugadores de todos los tiempos
-							</span>
-              . Nació el 24 de junio de 1987 en Rosario,{' '}
-							<span className={highlightText}>Argentina</span>. A los 13 años,
-              se trasladó a <span className={highlightText}>Barcelona</span>{' '}
-              para unirse a la academia juvenil del club y, desde entonces, ha
-              pasado gran parte de su carrera profesional en el Barcelona, hasta
-              el año 2021 cuando se transladó a{' '}
-							<span className={highlightText}>Paris Saint Germain</span>.
+						Lionel Messi nació el 24 de junio de 1987 en <span className={highlightText}>Rosario, Argentina</span>. Desde muy joven, mostró un gran talento para el fútbol y comenzó a jugar en las categorías inferiores del Newell&apos;s Old Boys. Sin embargo, su carrera dio un giro inesperado cuando fue diagnosticado con una deficiencia en la hormona del crecimiento a los 11 años.
 						</p>
 						<p className={`${paragraphStyle}`}>
-              Messi ha ganado numerosos títulos con el Barcelona, incluyendo 10
-              Ligas de España, 7 Copas del Rey y 4 Ligas de Campeones de la
-              UEFA. Ha sido galardonado con el{' '}
-							<span className={highlightText}>
-                Balón de Oro de la FIFA en 7 ocasiones
-							</span>{' '}
-              , lo que lo convierte en el jugador con más premios de este tipo.
-              También ha sido el máximo goleador de la Liga de España en 8
-              temporadas.
+						El <span className={highlightText}>FC Barcelona</span> ofreció pagarle el tratamiento, por lo que Messi y su familia decidieron mudarse a España para darle la oportunidad de unirse a las fuerzas juveniles del equipo. A los 16 años, Messi debutó en el primer equipo del Barcelona en un partido amistoso contra el Porto.
 						</p>
 						<p className={`${paragraphStyle}`}>
-              Con la selección argentina, Messi ha ganado la medalla de oro en
-              los Juegos Olímpicos de Beijing 2008, la copa América 2021 y el{' '}
-							<span className={highlightText}>Mundial Qatar 2022</span>. A
-              menudo se lo ha comparado con otros grandes futbolistas como Diego
-              Maradona y Pelé, y su habilidad para controlar el balón y marcar
-              goles lo han convertido en un{' '}
-							<span className={highlightText}>
-                jugador de culto en todo el mundo
-							</span>
-              .
+						Desde entonces, se ha convertido en uno de los <span className={highlightText}>futbolistas más talentosos</span> de la historia, reconocido por su humildad y dedicación al juego.
 						</p>
 					</section>
 				</div>
