@@ -8,7 +8,7 @@ import SectionTitle from '@/components/shared/SectionTitle';
 
 const Trophies = () => {
 	return (
-		<section id='#trophies' className='mt-20'>
+		<section id='trophies' className='mt-20'>
 			<div>
 				<div className='w-full flex flex-col items-center text-center gap-6 p-5'>
 					<SectionTitle title='Trofeos'/>

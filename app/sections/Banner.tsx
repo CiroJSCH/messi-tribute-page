@@ -4,7 +4,7 @@ import ScrollDownButton from '../components/header/ScrollDownButton';
 
 const Banner = () => {
 	return (
-		<section className="relative h-screen w-screen">
+		<section id='home' className="relative h-screen w-screen">
 			<div className="absolute w-full h-full bg-[url('/images/banner.jpg')] bg-center z-[1]"/>
 			<div className='absolute bg-[rgba(0,0,0,0.9)] w-full h-full z-[2]'/>
 			<div className='z-[3] relative w-full h-full text-white flex flex-col justify-center items-center px-3 whitespace-nowrap'>
