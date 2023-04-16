@@ -59,6 +59,42 @@
   );
 }
 
+.triangle-gradient {
+  background: linear-gradient(135deg, rgb(159, 132, 46) 55px, #000 0);
+  color: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.barcelona-gradient {
+  background: rgb(0, 77, 152);
+  background: linear-gradient(
+    72deg,
+    rgba(0, 77, 152, 1) 0%,
+    rgba(29, 63, 136, 1) 16%,
+    rgba(157, 0, 65, 1) 86%
+  );
+}
+
+.psg-gradient {
+  background: rgb(218, 30, 37);
+  background: linear-gradient(
+    72deg,
+    rgba(218, 30, 37, 1) 26%,
+    rgba(6, 45, 84, 1) 79%
+  );
+}
+
+.argentina-gradient {
+  background: rgb(116, 172, 223);
+  background: linear-gradient(
+    0deg,
+    rgba(116, 172, 223, 1) 30%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(116, 172, 223, 1) 70%
+  );
+}
+
 @media screen and (min-width: 1024px) {
   .blue-solid-shadow {
     box-shadow: 10px 10px 0px 4px rgba(20, 79, 168, 1);
