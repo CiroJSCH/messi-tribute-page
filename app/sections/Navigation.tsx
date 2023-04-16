@@ -47,14 +47,16 @@ const Navigation = () => {
               Equipos
 						</Link>
 					</li>
-					<Link href="#home" className="relative w-[80px] lg:w-[110px] h-[80px] lg:h-[110px] hover:bg-gold transition ease-in-out duration-300 border rounded-full grid place-content-center">
-						<Image
-							src="/images/logo2.png"
-							alt="logo"
-							width={isDesktop ? 60 : 40}
-							height={isDesktop ? 60 : 40}
-						/>
-					</Link>
+					<li>
+						<Link href="#home" className="relative w-[80px] lg:w-[110px] h-[80px] lg:h-[110px] hover:bg-gold transition ease-in-out duration-300 border rounded-full grid place-content-center">
+							<Image
+								src="/images/logo2.png"
+								alt="logo"
+								width={isDesktop ? 60 : 40}
+								height={isDesktop ? 60 : 40}
+							/>
+						</Link>
+					</li>
 					<li>
 						<Link href="#trophies" className={listItemStyle}>
               Trofeos
