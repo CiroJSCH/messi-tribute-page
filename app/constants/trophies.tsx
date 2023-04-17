@@ -39,7 +39,7 @@ export const barcelonaTrophies = [
 	},
 	{
 		title: 'Copa del Rey',
-		amount: 4,
+		amount: 7,
 		image: copaDelRey.src,
 		years: [
 			'2008/09',
